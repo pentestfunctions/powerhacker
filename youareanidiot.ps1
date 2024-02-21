@@ -9,7 +9,7 @@ $browserPaths = @(
 )
 
 # Start Page
-$startPage = 'https://r33b.net/'
+$startPage = 'https://youareanidiot.cc/'
 
 # Function to find the first existing browser
 function Get-FirstExistingBrowser {
