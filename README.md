@@ -1,7 +1,7 @@
 
 # PowerHacker :zap: README
 
-Welcome to PowerHacker, a PowerShell-based toolkit designed for penetration testers and cybersecurity professionals. PowerHacker automates the discovery of valuable Top-Level Domains (TLDs) and the setup of subdomains to facilitate efficient red team operations and security assessments.
+Welcome to PowerHacker, a PowerShell-based toolkit designed for penetration testers and cybersecurity professionals. PowerHacker prefers utilizing valuable Top-Level Domains (TLDs) and the setup of subdomains to facilitate efficient red team operations and security assessments.
 
 ## :lock: Security Notice
 
@@ -27,10 +27,12 @@ To leverage PowerHacker for your assessments:
     - Click on "Webhooks" and then "New Webhook".
     - Customize your webhook, copy the URL, and use it in the script.
 
-4. Ensure your environment is configured to run PowerShell scripts:
-    ```
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-    ```
+4. Upload the ps1 file to your github account.
+
+5. Register a domain for best outcome, for example:
+   - `fileexplorer.run`
+   - You can also then add subdomains such as `windows.fileexplorer.run`
+   - Some other good TLD ideas: `software` such as `microsoft.sofware` or `calculator.run`
 
 ## :rocket: Usage
 
