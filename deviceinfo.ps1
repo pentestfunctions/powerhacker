@@ -1,4 +1,4 @@
-$WebhookUrl = "https://discord.com/api/webhooks/1209833918216278026/DH3ck68vq0etPf-ax_cGHsDQH8VGARYrVdiaiqenHFwq1sHSQC973nIXzl8BKTsWpPPz"
+$WebhookUrl = "SET-WEBHOOK"
 $jsonFilePath = "C:\Users\$env:USERNAME\Desktop\tempfile.json"
 $wavFilePath = "C:\Users\$env:USERNAME\Desktop\output_file.wav"
 $Path = "C:\Users\$env:USERNAME\Desktop"
