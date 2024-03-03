@@ -9,7 +9,7 @@ $browserPaths = @(
 )
 
 # Start Page
-$startPage = 'https://fakeupdate.net/win10ue/bsod.html'
+$startPage = 'https://fakeupdate.net/win10ue'
 
 # Function to find the first existing browser
 function Get-FirstExistingBrowser {
